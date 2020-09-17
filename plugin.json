@@ -1,0 +1,16 @@
+{
+    "name"              :"userlikePlugin",
+    "description"       :"Plugin für Ausspielung von userlikeJS am Ende des Bodys",
+    "namespace"         :"userlikePlugin",
+    "author"            :"Jan Hendrik Hansen",
+    "type"              :"template",
+    "serviceProvider"   : "userlikePlugin\\Providers\\userlikePluginServiceProvider",
+    "dataProviders"     :
+    [
+        {
+            "key"       :   "userlikePlugin\\Providers\\userlikePluginJSServiceProvider",
+            "name"      :   "Userlike JS",
+            "description":  "Einbinden des Userlike JS" 
+        }
+    ]
+}
