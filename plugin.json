@@ -2,7 +2,7 @@
     "version"           :   "0.1",
     "license"           :   "MIT",
     "name"              :"userlikePlugin",
-    "description"       :"Plugin für Ausspielung von userlikeJS am Ende des Bodys",
+    "description"       :"Plugin für Ausspielung von JS Top oder Bottom",
     "namespace"         :"userlikePlugin",
     "author"            :"Jan Hendrik Hansen",
     "type"              :"template",
@@ -10,9 +10,14 @@
     "dataProviders"     :
     [
         {
-            "key"       :   "userlikePlugin\\Providers\\userlikePluginJSServiceProvider",
-            "name"      :   "Userlike JS",
-            "description":  "Einbinden des Userlike JS" 
+            "key"       :   "userlikePlugin\\Providers\\userlikePluginBottomJSServiceProvider",
+            "name"      :   "JS für das Ende des Bodys",
+            "description":  "Einbinden des Bottom JS" 
+        },
+        {
+            "key"       :   "userlikePlugin\\Providers\\userlikePluginTopJSServiceProvider",
+            "name"      :   "JS für den Head",
+            "description":  "Einbinden des Top JS" 
         }
     ]
 }

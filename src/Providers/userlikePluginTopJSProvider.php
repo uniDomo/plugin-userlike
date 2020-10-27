@@ -4,11 +4,11 @@ namespace userlikePlugin\Providers;
 
 use Plenty\Plugin\Templates\Twig;
 
-class userlikePluginJSServiceProvider
+class userlikePluginTopJSServiceProvider
 {
     public function call ( Twig $twig )
     {
-        return $twig->render('userlikePlugin::userlikeScript');
+        return $twig->render('userlikePlugin::topScript');
     }
 }
 ?>
