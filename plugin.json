@@ -1,21 +1,23 @@
 {
     "version"           :   "0.1",
     "license"           :   "MIT",
-    "name"              :"userlikePlugin",
+    "name"              :"jsPlugin",
     "description"       :"Plugin für Ausspielung von JS Top oder Bottom",
-    "namespace"         :"userlikePlugin",
+    "namespace"         :"jsPlugin",
     "author"            :"Jan Hendrik Hansen",
-    "type"              :"template",
-    "serviceProvider"   : "userlikePlugin\\Providers\\userlikePluginServiceProvider",
+    "price"             : 0,
+    "categories"        : [],
+    "type"              :"general",
+    "serviceProvider"   : "jsPlugin\\Providers\\jsPluginServiceProvider",
     "dataProviders"     :
     [
         {
-            "key"       :   "userlikePlugin\\Providers\\userlikePluginBottomJSServiceProvider",
+            "key"       :   "jsPlugin\\Providers\\jsPluginBottomJSServiceProvider",
             "name"      :   "JS für das Ende des Bodys",
             "description":  "Einbinden des Bottom JS" 
         },
         {
-            "key"       :   "userlikePlugin\\Providers\\userlikePluginTopJSServiceProvider",
+            "key"       :   "jsPlugin\\Providers\\jsPluginTopJSServiceProvider",
             "name"      :   "JS für den Head",
             "description":  "Einbinden des Top JS" 
         }

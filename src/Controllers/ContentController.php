@@ -1,6 +1,6 @@
 <?php
 
-namespace userlikePlugin\Controllers;
+namespace jsPlugin\Controllers;
  
  
  use Plenty\Plugin\Controller;
@@ -9,6 +9,6 @@ namespace userlikePlugin\Controllers;
  class ContentController extends Controller
  {
      public function getHeadPlugin(Twig $twig):string{
-         return $twig->render('userlikePlugin::Index');
+         return $twig->render('jsPlugin::Index');
      }
  }

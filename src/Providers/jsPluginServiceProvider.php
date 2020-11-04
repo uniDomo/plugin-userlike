@@ -1,11 +1,11 @@
 <?php
  
-namespace userlikePlugin\Providers;
+namespace jsPlugin\Providers;
  
  
 use Plenty\Plugin\ServiceProvider;
  
-class userlikePluginServiceProvider extends ServiceProvider
+class jsPluginServiceProvider extends ServiceProvider
 {
     public function register()
     {
