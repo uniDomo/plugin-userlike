@@ -1,2 +1,2 @@
-# plugin-userlike
- Dieses Plugin erlaubt es den JS-Code von Userlike einzubinden
+# plugin-js
+ Dieses Plugin erlaubt es JS-Code am oberen und unteren Ende der Seite einzubinden
